@@ -1,0 +1,26 @@
+{
+  "name": "azure-service-bus",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "Sample Azure Service Bus Node.js Project with TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/index.js"
+  },
+  "author": "antonyagustineraj@gmail.com",
+  "license": "ISC",
+  "keywords": [
+    "azure",
+    "service",
+    "bus"
+  ],
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@azure/service-bus": "^7.9.5",
+    "ts-dotenv": "^0.9.1"
+  }
+}
