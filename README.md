@@ -31,6 +31,6 @@ To run this Node.js project with TypeScript, follow these steps:
   npm start
   ```
 
-7. You should now be able to access the project at the specified URL or port.
+7. You should now be able to see message sending and receiving.
 
 Remember to update the repository URL in the clone command with your own repository URL.
