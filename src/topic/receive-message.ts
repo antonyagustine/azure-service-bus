@@ -17,12 +17,6 @@ export async function receiveMessage() {
   );
   console.log("Waiting messages...");
 
-  // const messages = await receiver.receiveMessages(5, { maxWaitTimeInMs: 5000 });
-  // for (const message of messages) {
-  //   console.log(`Received message: ${message.body}`);
-  //   await receiver.completeMessage(message);
-  // }
-
   await receiver.subscribe(
     {
       async processMessage(message: ServiceBusReceivedMessage): Promise<void> {

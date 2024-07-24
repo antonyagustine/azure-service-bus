@@ -28,7 +28,12 @@ To run this Node.js project with TypeScript, follow these steps:
 
 6. Once the build and tests are successful, you can start the project by running the start command:
   ```
-  npm start
+  npm start topic
+  ```
+  or
+
+  ```
+  npm start queue
   ```
 
 7. You should now be able to see message sending and receiving.
@@ -38,3 +43,4 @@ Remember to update the repository URL in the clone command with your own reposit
 
 Reference:
 - https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-nodejs-how-to-use-topics-subscriptions?tabs=passwordless
+- https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-nodejs-how-to-use-queues?tabs=connection-string
